@@ -1,0 +1,20 @@
+{
+    "name": "lenovo/sozo-oop-booking-template",
+    "description": "basic hotel booking app using PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Class\\": "src/classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "justinjenecke",
+            "email": "justinjenecke@gmail.com"
+        }
+    ],
+    "require": {
+        "godruoyi/php-snowflake": "^2.0"
+    }
+}
